@@ -4,9 +4,20 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+      {/* NAVBAR */}
+
+      {/* HOME CARRUSEL */}
+
+      {/* OUR SOFTWARE IS USED DAILY BY */}
+
+      {/* WHAT WE DO */}
+      {/* MOTOCEAN - AGRICULTURE - BESPOKE */}
+
+      {/* ABOUT */}
+      {/* UK OFFICE - FRANCE OFFICE  */}
+
+      {/* FOOTER */}
+
     </div>
   );
 }
