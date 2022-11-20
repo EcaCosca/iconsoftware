@@ -16,7 +16,7 @@ const Card = ({img, adress}) => {
                         </div>  
                     </div>
                 </div>
-                <div className="flex flex-col justify-center items-center text-2xl font-mono">
+                <div className="flex flex-col justify-center items-center font-mono">
                     <p className="mb-2 border-t-2 p-4 mt-5">
                     {adress.map(str=>(<p>{str}</p>))}
                     </p>

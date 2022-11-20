@@ -6,9 +6,10 @@ import Card from './Card'
 const Contact = () => {
   return (
     <div className="flex flex-row justify-around p-4">
-        <Card img={DM2} adress={["Icon Software","Sir Colin Campbell Building","Triumph Road","Nottingham","NG7 2TU","UK"]}/>
-        <Card img={DM1} adress={["Icon Software","Mont-Blanc Base Camp","336 Route du Nant Jorland","74310 Les Houches","FRANCE"]}/>
-
+        <div className="flex flex-col lg:flex-row justify-around p-4">
+        <Card img={DM2} adress={["Sir Colin Campbell Building","Triumph Road","Nottingham","NG7 2TU","UK"]}/>
+        <Card img={DM1} adress={["Mont-Blanc Base Camp","336 Route du Nant Jorland","Les Houches","74310","FRANCE"]}/>
+        </div>
     </div>
   )
 }
