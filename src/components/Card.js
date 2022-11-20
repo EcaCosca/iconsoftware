@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Card = ({img, adress}) => {
+const Card = ({img, country, adress}) => {
   return (
     <div className="flex flex-col justify-around p-4 justify-center items-center">
                     <div className='rounded-full h-40 w-40 flex items-center justify-center border-4 border-gray-300 shadow-lg transform hover:scale-125 hover:shadow-2xl transition ease-in-out duration-1000'>
-                            <h2 className="text-4xl font-bold">{adress[adress.length - 1]}</h2>
+                            <h2 className="text-4xl font-bold">{country}</h2>
                     </div>
                 <div className="py-6 flex flex-col justify-center sm:py-12 flex-none px-8">
                     <div className="relative py-3 sm:max-w-xl sm:mx-auto">
