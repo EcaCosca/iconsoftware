@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
+import About from './components/About';
 
 function App() {
   return (
@@ -19,9 +20,8 @@ function App() {
       {/* MOTOCEAN - AGRICULTURE - BESPOKE */}
 
       {/* ABOUT */}
-
+      <About/>
       {/* CONTACT */}
-      {/* UK OFFICE - FRANCE OFFICE  */}
       <Contact />
 
       {/* FOOTER */}
