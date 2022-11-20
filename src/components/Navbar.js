@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav class="bg-gray-800">
+    <nav class="bg-gray-200 dark:bg-gray-800">
       <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div class="relative flex h-16 items-center justify-between">
           <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -60,16 +60,19 @@ const Navbar = () => {
               </svg>
             </button>
           </div>
+
+          {/* FULL SIZE NAVBAR */}
+
           <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-between">
             <div class="flex flex-shrink-0 items-center">
               <img
                 class="block h-8 w-auto lg:hidden"
-                src="../img/icon.png"
+                src="https://static.wixstatic.com/media/283e5d_31415b50e1aa4409928ca78c1deb5f1d~mv2.png/v1/fill/w_200,h_101,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logo-rgb.png"
                 alt="icon-software"
               />
               <img
                 class="hidden h-8 w-auto lg:block"
-                src="../img/icon.png"
+                src="https://static.wixstatic.com/media/283e5d_31415b50e1aa4409928ca78c1deb5f1d~mv2.png/v1/fill/w_200,h_101,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logo-rgb.png"
                 alt="icon-software"
               />
             </div>
@@ -78,7 +81,7 @@ const Navbar = () => {
                 {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */}
                 <a
                   href="#"
-                  class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium"
+                  class="text-gray-800 dark:bg-gray-900 dark:text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   aria-current="page"
                 >
                   Home
@@ -86,21 +89,21 @@ const Navbar = () => {
 
                 <a
                   href="#"
-                  class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  class="text-gray-800 dark:text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
                   What we do
                 </a>
 
                 <a
                   href="#"
-                  class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  class="text-gray-800 dark:text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
                   About
                 </a>
 
                 <a
                   href="#"
-                  class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  class="text-gray-800 dark:text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
                   Contact
                 </a>
