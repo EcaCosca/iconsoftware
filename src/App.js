@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
       {/* UK OFFICE - FRANCE OFFICE  */}
 
       {/* FOOTER */}
-
+      <Footer />
     </div>
   );
 }
