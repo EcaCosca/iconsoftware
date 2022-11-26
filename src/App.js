@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
+import Carousel from './components/Carousel';
 import About from './components/About';
 
 function App() {
@@ -10,7 +11,9 @@ function App() {
     <div className="App">
       {/* NAVBAR */}
       <Navbar />
-      {/* HOME CARRUSEL */}
+      {/* HOME CAROUSEL */}
+      <Carousel/>
+
       {/* VIDEO */}
       
 
